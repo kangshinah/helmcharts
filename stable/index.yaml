@@ -1,9 +1,36 @@
 apiVersion: v1
 entries:
+  kangshinah:
+  - apiVersion: v1
+    appVersion: latest
+    created: "2019-09-27T06:44:00.202596335Z"
+    description: Sample helm chart for study
+    digest: 31fd3610a61ce41550436dc9dd7b1f08fae81df581d7a7930ab4743c0b9a7ac6
+    engine: gotpl
+    home: https://kangshinah.github.io/helmcharts/stable
+    icon: https://d36jcksde1wxzq.cloudfront.net/saas-mega/blueFingerprint.png
+    keywords:
+    - hello
+    - sample
+    - kangshinah
+    - happycloud
+    kubeVersion: '>=1.15.3'
+    maintainers:
+    - email: hiondal@gmail.com
+      name: HaeKyung Lee
+    - email: happycloudpak@gmail.com
+      name: HappyCloudPak
+    name: kangshinah
+    sources:
+    - https://kangshinah.github.io/helmcharts/stable
+    tillerVersion: '>2.0.0'
+    urls:
+    - kangshinah-0.1.0.tgz
+    version: 0.1.0
   redis:
   - apiVersion: v1
     appVersion: 5.0.5
-    created: "2019-09-27T02:24:14.971832963Z"
+    created: "2019-09-27T06:44:00.204376Z"
     description: Open source, advanced key-value store. It is often referred to as
       a data structure server since keys can contain strings, hashes, lists, sets
       and sorted sets.
@@ -26,4 +53,4 @@ entries:
     urls:
     - redis-9.2.0.tgz
     version: 9.2.0
-generated: "2019-09-27T02:24:14.969343492Z"
+generated: "2019-09-27T06:44:00.20165716Z"
